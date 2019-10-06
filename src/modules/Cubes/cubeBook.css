@@ -1,0 +1,75 @@
+.cube-container {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 100;
+    margin: 55px;
+    background-color: #f1f1f1!important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.cube-img {
+    flex: 50;
+    width: 20rem;
+    height: 15rem;
+}
+.cube-box{
+    width: 40rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cube-meta-div {
+    flex: 50;
+}
+.cube-name {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+}
+.cube-price {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.cube-address{
+    display: block;
+    text-align: center;
+    color: grey;
+    margin: 10px 0px;
+}
+.cube-rating-container {
+    
+    display: block;
+}
+.cube-rating-label {
+    color: grey;
+    margin-left: 20px;
+}
+.cube-rating-value{ 
+    color: #26a541;
+}
+
+.cube-seatsAvailble-container {
+    display: block;
+    margin-left: 20px;
+}
+.cube-seatsAvailble-label {
+    color: grey;
+}
+.cube-seatsAvailble-value {
+    color: #26a541;
+}
+.book-now-button {
+    width: 150px;
+    height: 39px;
+    font-size: 18px;
+    background: green;
+    color: white;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 0px;
+}

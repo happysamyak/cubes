@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-import Cube from "./cube"
+import Cube from "./cube";
+import "./cubeBook.css";
 class CubeBook extends Component {
     
   constructor(props) {
@@ -80,7 +81,7 @@ class CubeBook extends Component {
       //     cubeArr.push(<Cube key={i} details={cubeDetails[i]}></Cube>)
         //}
         
-        return (<div className="cubeDetails">{ cubeDetails.map((c,i)=><Cube key={i} details={c}></Cube>)}</div>);
+        return (<div className="cube-container">{ cubeDetails.map((c,i)=><Cube key={i} details={c}></Cube>)}</div>);
    // );
   }
   
