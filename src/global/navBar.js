@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { Nav, Navbar, NavItem } from "react-bootstrap";
 
 import CubeBook from "./../modules/Cubes/CubeBook";
-import MeelBook from "./../modules/meels/meelsBook"
+import MealBook from "../modules/meals/mealsBook"
 import { LinkContainer } from "react-router-bootstrap";
 class NavBar extends Component {
     
@@ -24,7 +24,7 @@ class NavBar extends Component {
             <LinkContainer to="/">
               <NavItem>CubeBook</NavItem>
             </LinkContainer>
-            <LinkContainer to="/MeelBook">
+            <LinkContainer to="/MealBook">
               <NavItem>MeelBook</NavItem>
             </LinkContainer>
           </Nav>
@@ -40,7 +40,7 @@ class NavBar extends Component {
           <hr />
           <Switch>
               <Route exact path='/' component={CubeBook} />
-              <Route path='/MeelBook' component={MeelBook} />
+              <Route path='/MealBook' component={MealBook} />
                {/* <Route path='/about' component={About} />  */}
           </Switch>
         

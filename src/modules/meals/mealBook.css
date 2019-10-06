@@ -1,0 +1,48 @@
+.meal-box {
+    height: 50%;
+    margin-bottom: 30px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.meal-box:hover{
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.col-sm-4{
+    width: 33.33333333%;
+}
+
+.mealDetails{
+display: flex;
+flex-wrap: wrap;
+}
+
+.meal-image-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height:75%;
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.meal-details-container{
+    position: relative;
+    width: 100%;
+}
+
+.meal-image-container > img{
+      max-width:70%;
+      max-height:10%;
+  }
+
+.meal-detail{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.counterMeal{
+    position:absolute;
+    right:10%;
+}
