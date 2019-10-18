@@ -18,9 +18,9 @@ class NavBar extends Component {
     return (
         <div>
             <Router>
-            <Navbar fluid collapseOnSelect>
+            <Navbar collapseOnSelect>
         <Navbar.Collapse>
-          <Nav pullRight>
+          <Nav>
             <LinkContainer to="/">
               <NavItem>CubeBook</NavItem>
             </LinkContainer>
