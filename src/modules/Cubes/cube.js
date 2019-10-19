@@ -29,12 +29,12 @@ class Cube extends Component {
     return (
         <>
             <div className="cube-box hidden">
-                {/* <div>
+                <div>
                   <span className="cube-name">{this.props.details.title}</span>
                   <span className="cube-address">{this.props.details.Address}</span>
-                </div> */}
+                </div>
                 <div className="cube-img">
-                  <img src={"http://localhost:62018/images/office/"+this.props.details.imgPath}></img>
+                  <img src={"./images/office/"+this.props.details.imgPath}></img>
                 </div>
                 <div className="cube-meta-div">
                   
@@ -56,7 +56,7 @@ class Cube extends Component {
                     <button onClick={this.bookcube("sat", this.props.weekData, this.props.details.id)} className={this.getClassName("sat", this.props.weekData, this.props.details.id)}>Sat</button>
                     <button onClick={this.bookcube("Sun", this.props.weekData, this.props.details.id)} className="disabled" disabled>Sun</button>
                   </div>
-                </div>
+                </div>  
                 
             </div>
         </>
